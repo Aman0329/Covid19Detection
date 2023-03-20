@@ -1,0 +1,2 @@
+image,image_path,xmin,ymin,xmax,ymax,label,confidence,x_size,y_size
+positive_irl69Lj.png,D:\Users\aman\Desktop\AI_Project\Covid-19-detection-from-X-ray-images-using-deep-learning\media\positive_irl69Lj.png,34,53,494,515,0,0.9979003071784973,522,582

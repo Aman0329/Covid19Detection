@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to right, rgb(167, 48, 48) , rgb(219, 90, 81) , rgb(235, 149, 143));
+}
+#input1{
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    height: 40%;
+    position: absolute;
+    left: 32%;
+    top: 30%;
+    background-color: rgba(221, 212, 212, 0.692);
+}

@@ -1,0 +1,20 @@
+{% load static %}
+<link rel="stylesheet" href="{%static 'css/index.css'%}" />
+{% block title %}
+<h1>Covid-19 Detection App</h1>
+{% endblock %} 
+
+{% block content %}
+<p id="p1">
+	This is a Covid Detection App based on Deep learning(AI),
+	upload your lung's x-ray image and let AI detect your covid-19 result with 90% precision. 
+</p>
+<div>
+	<h2 style="color:rgb(8, 13, 22)"> Sign up for YOLO App on covid-19</h2>
+ 	<p><a id="btn2" href="{% url 'signup' %}">Please sign up</a></p>
+{% endblock %}
+<br>
+<br>
+<h2> Login if sign up successfully</h2>
+<p><a id="btn" href="{% url 'login' %}">Please sign in</a></p>
+</div>

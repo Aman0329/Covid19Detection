@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(to right, rgb(167, 48, 48) , rgb(219, 90, 81) , rgb(235, 149, 143));
+}
+#tbl1{
+    border: 2px solid black;
+    position: relative;
+    left: 15%;
+    top: 10%;
+}
+#heading3{
+    text-align: center;
+    font-weight: bolder;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result after AppPrediction</title>
+    {% load static %}
+<link rel="stylesheet" href="{%static 'css/result.css'%}" />
+</head>
+<body>
+<table id="tbl1">
+{% for key, value in context.items %}
+<tr>
+    <td>{{key}}</td>
+    <td>{{value}}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
+
+<div id="heading3"><h3> Label 0 means positive and 1 means negative</h3>
+
+<p><a href="{% url 'User_History' %}">See All history of user from here</a></p>
+</div>
